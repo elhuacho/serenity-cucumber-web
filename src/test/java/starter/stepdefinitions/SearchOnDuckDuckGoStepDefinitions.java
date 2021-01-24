@@ -7,8 +7,8 @@ import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import starter.navigation.NavigateTo;
-import starter.search.SearchFor;
-import starter.search.SearchResult;
+import starter.ui.search.SearchFor;
+import starter.ui.search.SearchResult;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
