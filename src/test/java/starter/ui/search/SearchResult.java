@@ -7,6 +7,7 @@ import java.util.List;
 
 public class SearchResult {
     public static Question<List<String>> titles() {
-        return actor -> TextContent.of(SearchResultList.RESULT_TITLES).viewedBy(actor).asList();
+        return actor -> TextContent.of(SearchResultList.RESULT_TITLES).asListOf(String.class).answeredBy(actor);    
+                //viewedBy(actor).asList();.
     }
 }

@@ -6,7 +6,7 @@ import org.hamcrest.core.SubstringMatcher;
 
 public class StringContainsIgnoringCase extends SubstringMatcher {
     public StringContainsIgnoringCase(String substring) {
-        super(substring);
+        super("", true, substring);
     }
 
     protected boolean evalSubstringOf(String string) {
